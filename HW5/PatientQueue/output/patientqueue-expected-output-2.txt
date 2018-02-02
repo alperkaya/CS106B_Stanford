@@ -1,0 +1,396 @@
+CS 106B/X Hospital Patient Check-in System
+==========================================
+
+Current patient queue:
+{} (empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? JonSnow
+Priority? 50
+
+Current patient queue:
+{50:JonSnow} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Cersei
+Priority? 20
+
+Current patient queue:
+{20:Cersei, 50:JonSnow} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Hodor
+Priority? 30
+
+Current patient queue:
+{20:Cersei, 30:Hodor, 50:JonSnow} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Sansa
+Priority? 70
+
+Current patient queue:
+{20:Cersei, 30:Hodor, 50:JonSnow, 70:Sansa} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Ned
+Priority? 50
+
+Current patient queue:
+{20:Cersei, 30:Hodor, 50:JonSnow, 50:Ned, 70:Sansa} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Tyrion
+Priority? 22
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 30:Hodor, 50:JonSnow, 50:Ned, 70:Sansa} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Hound
+Priority? 90
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 30:Hodor, 50:JonSnow, 50:Ned, 70:Sansa, 90:Hound} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Brienne
+Priority? 40
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 70:Sansa, 90:Hound} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Jamie
+Priority? 100
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 70:Sansa, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Arya
+Priority? 25
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 70:Sansa, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Bran
+Priority? 60
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 60:Bran, 70:Sansa, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Tormund
+Priority? 75
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 60:Bran, 70:Sansa, 75:Tormund, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Qyburn
+Priority? 56
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 70:Sansa, 75:Tormund, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Sam
+Priority? 88
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 70:Sansa, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Tywin
+Priority? 30
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 70:Sansa, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Joffrey
+Priority? 38
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 70:Sansa, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Oberyn
+Priority? 69
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 69:Oberyn, 70:Sansa, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Cersei" with priority 20
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 69:Oberyn, 70:Sansa, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Sansa
+Old priority? 70
+New priority? 60
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 88:Sam, 90:Hound, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Hound
+Old priority? 90
+New priority? 30
+
+Current patient queue:
+{20:Cersei, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 88:Sam, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Sam
+Old priority? 88
+New priority? 21
+
+Current patient queue:
+{20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:Joffrey, 40:Brienne, 50:JonSnow, 50:Ned, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Ned
+Old priority? 50
+New priority? 15
+
+Current patient queue:
+{15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:Joffrey, 40:Brienne, 50:JonSnow, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Ned" with priority 15
+
+Current patient queue:
+{15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:Joffrey, 40:Brienne, 50:JonSnow, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Joffrey
+Old priority? 38
+New priority? 5
+
+Current patient queue:
+{5:Joffrey, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 40:Brienne, 50:JonSnow, 56:Qyburn, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? u
+Name? Qyburn
+Old priority? 56
+New priority? 7
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 40:Brienne, 50:JonSnow, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Catelyn
+Priority? 45
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 40:Brienne, 45:Catelyn, 50:JonSnow, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? NightKing
+Priority? 38
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? N
+Name? Drogon
+Priority? 50
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? n
+Name? Pycelle
+Priority? 80
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Joffrey" with priority 5
+
+Current patient queue:
+{5:Joffrey, 7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Joffrey"
+
+Current patient queue:
+{7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Qyburn" with priority 7
+
+Current patient queue:
+{7:Qyburn, 15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Qyburn"
+
+Current patient queue:
+{15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Ned" with priority 15
+
+Current patient queue:
+{15:Ned, 20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Ned"
+
+Current patient queue:
+{20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Cersei" with priority 20
+
+Current patient queue:
+{20:Cersei, 21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Cersei"
+
+Current patient queue:
+{21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Sam" with priority 21
+
+Current patient queue:
+{21:Sam, 22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Sam"
+
+Current patient queue:
+{22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Tyrion" with priority 22
+
+Current patient queue:
+{22:Tyrion, 25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Tyrion"
+
+Current patient queue:
+{25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Arya" with priority 25
+
+Current patient queue:
+{25:Arya, 30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Arya"
+
+Current patient queue:
+{30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Hodor" with priority 30
+
+Current patient queue:
+{30:Hodor, 30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Hodor"
+
+Current patient queue:
+{30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Tywin" with priority 30
+
+Current patient queue:
+{30:Tywin, 30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Tywin"
+
+Current patient queue:
+{30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Hound" with priority 30
+
+Current patient queue:
+{30:Hound, 38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Hound"
+
+Current patient queue:
+{38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "NightKing" with priority 38
+
+Current patient queue:
+{38:NightKing, 40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "NightKing"
+
+Current patient queue:
+{40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Brienne" with priority 40
+
+Current patient queue:
+{40:Brienne, 45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Brienne"
+
+Current patient queue:
+{45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Catelyn" with priority 45
+
+Current patient queue:
+{45:Catelyn, 50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Catelyn"
+
+Current patient queue:
+{50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "JonSnow" with priority 50
+
+Current patient queue:
+{50:JonSnow, 50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "JonSnow"
+
+Current patient queue:
+{50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Drogon" with priority 50
+
+Current patient queue:
+{50:Drogon, 60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Drogon"
+
+Current patient queue:
+{60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Bran" with priority 60
+
+Current patient queue:
+{60:Bran, 60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Bran"
+
+Current patient queue:
+{60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Sansa" with priority 60
+
+Current patient queue:
+{60:Sansa, 69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Sansa"
+
+Current patient queue:
+{69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Oberyn" with priority 69
+
+Current patient queue:
+{69:Oberyn, 75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Oberyn"
+
+Current patient queue:
+{75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Tormund" with priority 75
+
+Current patient queue:
+{75:Tormund, 80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Tormund"
+
+Current patient queue:
+{80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Pycelle" with priority 80
+
+Current patient queue:
+{80:Pycelle, 100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Pycelle"
+
+Current patient queue:
+{100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? f
+Front of line is "Jamie" with priority 100
+
+Current patient queue:
+{100:Jamie} (not empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? p
+Processing patient: "Jamie"
+
+Current patient queue:
+{} (empty)
+N)ew, F)ront, U)pgrade, P)rocess, B)ulk, C)lear, Q)uit? q
+
+Exiting.
