@@ -1,0 +1,48 @@
+#include "trailblazer.h"
+
+using namespace std;
+
+Vector<Vertex*> depthFirstSearch(BasicGraph& graph, Vertex* start, Vertex* end) {
+    // TODO: implement this function; remove these comments
+    //       (The function body code provided below is just a stub that returns
+    //        an empty vector so that the overall project will compile.
+    //        You should remove that code and replace it with your implementation.)
+    Vector<Vertex*> path;
+    return path;
+}
+
+Vector<Vertex*> breadthFirstSearch(BasicGraph& graph, Vertex* start, Vertex* end) {
+    // TODO: implement this function; remove these comments
+    //       (The function body code provided below is just a stub that returns
+    //        an empty vector so that the overall project will compile.
+    //        You should remove that code and replace it with your implementation.)
+    Vector<Vertex*> path;
+    return path;
+}
+
+Vector<Vertex*> dijkstrasAlgorithm(BasicGraph& graph, Vertex* start, Vertex* end) {
+    // TODO: implement this function; remove these comments
+    //       (The function body code provided below is just a stub that returns
+    //        an empty vector so that the overall project will compile.
+    //        You should remove that code and replace it with your implementation.)
+    Vector<Vertex*> path;
+    return path;
+}
+
+Vector<Vertex*> aStar(BasicGraph& graph, Vertex* start, Vertex* end) {
+    // TODO: implement this function; remove these comments
+    //       (The function body code provided below is just a stub that returns
+    //        an empty vector so that the overall project will compile.
+    //        You should remove that code and replace it with your implementation.)
+    Vector<Vertex*> path;
+    return path;
+}
+
+Set<Edge*> kruskal(BasicGraph& graph) {
+    // TODO: implement this function; remove these comments
+    //       (The function body code provided below is just a stub that returns
+    //        an empty set so that the overall project will compile.
+    //        You should remove that code and replace it with your implementation.)
+    Set<Edge*> mst;
+    return mst;
+}
